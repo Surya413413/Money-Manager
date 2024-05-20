@@ -132,23 +132,23 @@ class MoneyManager extends Component {
         <div className="form-history-container">
           <form className="form-container" onSubmit={this.addTransction}>
             <h1>Add Transaction</h1>
-            <label htmlFor="html" className="margin-style">
+            <label htmlFor="title" className="margin-style">
               TITLE
             </label>
             <input
               type="text"
-              id="html"
+              id="title"
               value={titleInput}
               placeholder="TITLE"
               onChange={this.onChangeTitle}
               className="margin-style input-width"
             />
-            <label htmlFor="html" className="margin-style">
+            <label htmlFor="amount" className="margin-style">
               AMOUNT
             </label>
             <input
               type="text"
-              id="html"
+              id="amount"
               value={amountInput}
               placeholder="AMOUNT"
               className="margin-style input-width"
