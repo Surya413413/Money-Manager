@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.app-container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.second-container-MoneyManager {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 15%;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.heading-style {
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin-left: 20px;
+}
+.para-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 20px;
+}
+.span-style {
+  color: blue;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 600px;
+  border: 1px solid #7e858e;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.margin-style {
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.input-width {
+  height: 80px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 350px;
+  border: 1px solid #7e858e;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.form-history-container {
+  display: flex;
+  justify-content: space-around;
+}
+.Title-Amount-type-container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #7e858e;
+  height: 80%;
+  border-radius: 10px;
+}
+.button-add-style {
+  width: 50px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  border-width: 0px;
+}
+.unorder-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-transactionlist {
+  display: flex;
+  flex-direction: column;
+}

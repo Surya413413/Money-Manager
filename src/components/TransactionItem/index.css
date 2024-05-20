@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid green;
+  align-items: center;
+}
+.delete-icon {
+  width: 30px;
+  height: 30px;
+}
